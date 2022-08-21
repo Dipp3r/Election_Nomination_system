@@ -1,0 +1,8 @@
+<RCC>
+  <qresource>
+    <file>logo2.png</file>
+    <file>Bg_Nomination_img.png</file>
+    <file>Bg_Nomination_img2.png</file>
+    <file>logo.png</file>
+  </qresource>
+</RCC>

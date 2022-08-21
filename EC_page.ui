@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1430</width>
+    <height>545</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-10</y>
+     <width>1431</width>
+     <height>631</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(54, 52, 95);
+background-color: rgb(53, 51, 91);</string>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1431</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 14pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(48, 48, 48);
+border-style: solid;
+border-radius:5px;
+font-weight:bold;
+color: rgb(255, 255, 255);
+</string>
+    </property>
+    <property name="text">
+     <string>ELECTION COMMISSIONER</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::NoTextInteraction</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="back">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#back{
+
+font: 75 11pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(170, 170, 255);
+border-style: solid;
+border-color:rgb(170, 170, 255);
+border-width:3px;
+border-radius:10px;
+
+}
+
+
+QPushButton#back:hover {
+  background-color: white;
+}</string>
+    </property>
+    <property name="text">
+     <string>↩ Back</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="nominee_details">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>80</y>
+      <width>1321</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(206, 217, 255);
+alternate-background-color: qconicalgradient(cx:0.466, cy:1, angle:325.9, stop:0 rgba(140, 126, 178, 255), stop:0.864407 rgba(255, 185, 232, 255));</string>
+    </property>
+    <column>
+     <property name="text">
+      <string>Name</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Address</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Registration ID</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>mobile No</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Adhaar No</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>DOB</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Age</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Educational Qualification</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>crime</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>accepted/rejected</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="submit">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>480</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#submit{
+
+font: 75 11pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(170, 170, 255);
+border-style: solid;
+border-color:rgb(170, 170, 255);
+border-width:3px;
+border-radius:10px;
+
+}
+
+
+QPushButton#submit:hover {
+  background-color: white;
+}</string>
+    </property>
+    <property name="text">
+     <string>📝 Save</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="saving">
+    <property name="geometry">
+     <rect>
+      <x>1070</x>
+      <y>510</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="update">
+    <property name="geometry">
+     <rect>
+      <x>1250</x>
+      <y>460</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#update{
+
+font: 75 11pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(170, 170, 255);
+border-style: solid;
+border-color:rgb(170, 170, 255);
+border-width:3px;
+border-radius:10px;
+
+}
+
+
+
+QPushButton#submit:hover {
+  background-color: white;
+}</string>
+    </property>
+    <property name="text">
+     <string>Update</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="accepted">
+    <property name="geometry">
+     <rect>
+      <x>1090</x>
+      <y>460</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Accepted</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="rejected">
+    <property name="geometry">
+     <rect>
+      <x>1090</x>
+      <y>480</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Rejected</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
